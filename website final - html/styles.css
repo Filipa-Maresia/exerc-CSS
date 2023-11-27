@@ -1,0 +1,150 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #333;
+    background-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  }
+  
+  header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+  }
+  
+  .navegação {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul[primeiratab], ul[segundatab] {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul[segundatab] {
+    margin-left: auto;
+  }
+  
+  ul[primeiratab] li,
+  ul[segundatab] li {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .div1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .div2 {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .div3 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .first, .second, .third, .fourth, .fifth, .sixth {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .first h3, .second h3, .third h3, .fourth h3, .fifth h3, .sixth h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .first span, .second span, .third span, .fourth span, .fifth span, .sixth span {
+    font-size: 0.9em;
+  }
+  
+  .div4 {
+    margin-top: 40px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  div.Blockchain1, div.Blockchain2, div.Blockchain3, div.Blockchain4 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Subscribe form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  Products ul, Resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  Products li, Resources li {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,22 @@
+$warning: red;
+
+
+
+p {
+    color: $warning;
+}
+
+
+//muda a cor pq dentro do h1 mudamos o atributo de warning
+h1 {
+    $warning: blue;
+    color: $warning;
+    span {
+         color: $warning
+    }
+}
+
+h2 {
+    color: $warning;
+
+}
